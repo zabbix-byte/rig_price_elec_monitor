@@ -48,7 +48,6 @@ def main():
     app_open = True
     
     while app_open:
-        time.sleep(600)
         check = EletricityConfig(args_dicts['--zone'], float(args_dicts['--price_limit']), int(args_dicts['--disount'])).get_current_hour_price()
         if check != 'ok':
             data = os.popen('miner.py status').read() 
@@ -63,6 +62,7 @@ def main():
                     print('starting')
                     os.system('miner start')
 
+        time.sleep(600)
 
 if __name__ == '__main__':
     main()
