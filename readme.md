@@ -1,11 +1,11 @@
-# RIG DOWN, OPTIMIZE YOUR RIG!
+# ⚡​ RIG DOWN, OPTIMIZE YOUR RIG!
 **Works only for HiveOs** | **For Spain**
+ 
+This app stop your miner automatically with the price of electricity ⚡​
 
-This app stop your miner automatically with the price of electricity
 
 
-
-#### **INSTALL**
+#### 🛠️​ **INSTALL**
 1. Go in the HiveOs CLI and connect to the rig terminal.
 2. clone this repo in the server.
 3. check if you have python3
@@ -24,7 +24,7 @@ This app stop your miner automatically with the price of electricity
     ```
 
 
-Help message:
+**Help message 🗿**
 
 ```
 rig_down --zone <PCB/CYM> --price_limit <0.17..> --disount <20>
